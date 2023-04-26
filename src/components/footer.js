@@ -2,108 +2,106 @@ import React from "react";
 
 const Footer = ({ title, items }) => {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row justify-center">
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
-      <div>
-        <div className="flex flex-col p-10 m-0">
-          <p className="text-sm font-bold text-red uppercase pb-4">
-            ONLINE SERVICES
-          </p>
-          <div className="flex flex-col gap-2">
-            <a
-              href=""
-              className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer "
-            >
-              PUP WebMail
-            </a>
-            <a
-              href=""
-              className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
-            >
-              PUP iApply
-            </a>
-            <a
-              href=""
-              className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
-            >
-              SIS for Students
-            </a>
-            <a
-              href=""
-              className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
-            >
-              SIS for faculty
-            </a>
-            <p className="text-sm font-bold text-red uppercase pb-2 pt-8">
-              DOWNLOADS
-            </p>
-            <div className="flex flex-col gap-2">
-              <a
-                href=""
-                className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
-              >
-                For Students
-              </a>
-              <a
-                href=""
-                className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
-              >
-                For Faculty and Employees
-              </a>
-            </div>
-          </div>
+      <div className="flex flex-col p-10 m-0">
+        <p className="text-sm font-bold text-red uppercase pb-4">
+          ONLINE SERVICES
+        </p>
+        <div className="flex flex-col gap-2">
+          <a
+            href=""
+            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
+          >
+            PUP WebMail
+          </a>
+          <a
+            href=""
+            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
+          >
+            PUP iApply
+          </a>
+          <a
+            href=""
+            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
+          >
+            SIS for Students
+          </a>
+          <a
+            href=""
+            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
+          >
+            SIS for faculty
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col p-10">
+        <p className="text-sm font-bold text-red uppercase pb-4">DOWNLOADS</p>
+        <div className="flex flex-col gap-2">
+          <a
+            href=""
+            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
+          >
+            For Students
+          </a>
+          <a
+            href=""
+            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
+          >
+            For Faculty and Employees
+          </a>
         </div>
       </div>
       <div className="flex flex-col p-10">
         <p className="text-sm font-bold text-red uppercase pb-4">QUICK LINKS</p>
         <div className="flex flex-col gap-2">
           <a
-            href=""
-            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer "
+            href="https://www.facebook.com/ThePUPOfficial"
+            className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
             About PUP
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/ThePUPOfficial"
             className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
             Admission Information
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/ThePUPOfficial"
             className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
-            Branchesa and Campuses
+            Branches and Campuses
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/ThePUPOfficial"
             className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
             Academic Programs
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/ThePUPOfficial"
             className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
             Transparency Seal
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/ThePUPOfficial"
             className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
             Bid Notices and Invitation
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/ThePUPOfficial"
             className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
             International Affairs
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/ThePUPOfficial"
             className="text-graytext text-textsize select-none hover:underline hover:cursor-pointer"
           >
             Jobs for PUPians
@@ -175,15 +173,24 @@ const Footer = ({ title, items }) => {
           <div className="text-sm text-red pt-4">
             <p className="pb-2">PUPWEBSITE 10</p>
             <p className="pb-2">
-              <a href="#" className="underline hover:text-red">
+              <a
+                href="https://www.facebook.com/ThePUPOfficial"
+                className="underline hover:text-red"
+              >
                 Terms of Use
               </a>{" "}
               |{" "}
-              <a href="#" className="underline hover:text-red">
+              <a
+                href="https://www.facebook.com/ThePUPOfficial"
+                className="underline hover:text-red"
+              >
                 Privacy Statement
               </a>{" "}
               |{" "}
-              <a href="#" className="underline hover:text-red">
+              <a
+                href="https://www.facebook.com/ThePUPOfficial"
+                className="underline hover:text-red"
+              >
                 About PUPWebSite
               </a>
             </p>
