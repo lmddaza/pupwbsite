@@ -31,7 +31,7 @@ const Navbar = () => {
             </h1>
             <div className="flex-shrink-0">
               <h2 className="text-gray font-bold text-lg hidden md:block">
-                THE COUNTRY'S 1ST POLYTECHNICU UNIVERSITY
+                THE COUNTRY&aposS 1ST POLYTECHNICU UNIVERSITY
               </h2>
               <div>
                 <div className="hidden md:block">
