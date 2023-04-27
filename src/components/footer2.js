@@ -5,7 +5,7 @@ const Footer2 = () => {
     <>
       <div className="flex flex-row justify-center gap-20">
         <div className="flex flex-row">
-          <img src="phlogo.png" className="pt-2 flex h-48" />
+          <Image src="phlogo.png" className="pt-2 flex h-48" />
           <div>
             <p className="text-sssm font-bold text-white p-ft uppercase pb-2 pt-8">
               Republic of the Philippines
