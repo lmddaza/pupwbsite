@@ -21,6 +21,7 @@ const Navbar = () => {
           className="pl-3 pr-4 p-pad"
           height={120}
           width={110}
+          alt=""
         />
       </div>
       <div className="p-pad">
