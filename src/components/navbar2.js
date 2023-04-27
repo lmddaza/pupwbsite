@@ -1,3 +1,4 @@
+import {logo} from "public/phlogo.png"
 
 function Navigation() {
   return (
@@ -13,13 +14,8 @@ function Navigation() {
     >
       <div className="hidden lg:block">
         <ul className="flex space-x-1 p-lr justify-center">
-<<<<<<< HEAD
           <img
             src="/public/phlogo.png"
-=======
-          <Image
-            src="phlogo.png"
->>>>>>> 233577309140774ce5c32d3b2c14fa7b6d76badb
             alt="phlogo"
             className="pl-7 pr-4"
             height="36"
