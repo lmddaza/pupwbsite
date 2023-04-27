@@ -13,7 +13,7 @@ function Navigation() {
       <div className="hidden lg:block">
         <ul className="flex space-x-1 p-lr justify-center">
           <img
-            src="phlogo.png"
+            src="/public/phlogo.png"
             alt="phlogo"
             className="pl-7 pr-4"
             height="36"
